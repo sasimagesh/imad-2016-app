@@ -13,12 +13,12 @@ app.get('/item1',function (req, res) {
    res.send('my first item'); 
 });
 
-app.get('/item1',function (req, res) {
-   res.send('my first item'); 
+app.get('/item2',function (req, res) {
+   res.send('my second item'); 
 });
 
-app.get('/item1',function (req, res) {
-   res.send('my first item'); 
+app.get('/item3',function (req, res) {
+   res.send('my third item'); 
 });
 
 app.get('/ui/style.css', function (req, res) {
